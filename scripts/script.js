@@ -15,6 +15,8 @@ $(function () {
       "src",
       "https://pm1.narvii.com/7036/0b9c6a429b8f8ce671d7aac7608506ac6d40f744r1-1242-1234v2_hq.jpg"
     );
+    $("#draggable").fadeOut(20).animate({ left: 0 }).fadeIn(20);
+  
   });
 
   $("#draggable").draggable({

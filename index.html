@@ -1,3 +1,14 @@
+<!--
+  bravo=>charlie improvements
+
+  html: title bar
+  css: new google font
+  js: reset game with fade and alignment
+
+
+
+-->
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -12,21 +23,33 @@
 
 </head>
 <body>
-  
-<a href="https://github.com/kaibrysouthern/legendary-adventure-charlie.git" target="_blank">Link to code</a>
 
-<div class="container-fluid"></div>
+<div class="container-fluid">
 
-  <div class="row">
-    <div class="col-med-8">first column</div>
-    
-    <div class="col-med-4">second column</div>
-    
-  </div>
+  <!--Title Bar-->
+  <nav class="navbar navbar-expand- sm bg-light">
+    <div class="container-fluid">
+      <div class="navbar-header"><h2>Can you drag that dog? By: Kaibry Southern</h2>
+        <head>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+          <style>
+          body {
+            font-family: "Sofia", sans-serif;
+            text-shadow: 3px 3px 3px #ababab;
+          }
+          </style>
+          </head>
+      </div>
+
+      <ul class="nav navbar-nav">
+        <li class="active"></li><a href="https://github.com/kaibrysouthern/legendary-adventure-charlie.git" target="_blank">Link to My Repo!</a>
+      </ul>
+    </div>
+  </nav>
+</div>
 
 </div>
 <!-- partial:index.partial.html -->
-<h2>Can you drag that dog?</h2>
     <button id="resetGame" class="btn btn-secondary">Reset Game</button>
 
     <ul class="ui-helper-reset">
