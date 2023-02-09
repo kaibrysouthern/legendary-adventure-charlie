@@ -34,10 +34,10 @@ $(function () {
     } else if (new_count == 174) {
       game_msg = "SUPER secret game winner!";
     } else {
-      game_msg = "You alright with me!";
+      game_msg = "Yay! You alright with me!";
       $("img").attr(
         "src",
-        "https://user-images.githubusercontent.com/22795694/215548035-c30c0f77-24f0-4982-a2a8-cbe231ef1ecd.jpeg"
+        "https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/6/2021/08/theottocockapoo.png"
       );
     }
 
